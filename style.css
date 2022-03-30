@@ -1,16 +1,124 @@
 body
 {
-    background: linear-gradient(0.25turn, #353535 20%, #ffffff);
+    background: radial-gradient(#ffffff,#353535);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    /* pour centrer tout le site */
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1500px;
+    width: 1080px;
 }
 
-h1
+/* all <div> elements in the main area = left-area and right-area*/
+#main-area > div
 {
-    text-align: center;
-    margin: 10%;
-    width: 550px;
-    font-family: Verdana;
-    position: center;
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
-    background: #ffffff77;
+    height: 1500px;
 }
+
+/* main area in the page */
+#main-area
+{
+    width: 1080px;
+}
+
+
+/* LEFT AREA */
+
+    #left-area
+    {
+        float: left;
+        width: 350px;
+        background: #000000b0;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* portrait photograph */
+    .ronde
+    {
+        border-radius: 50%;
+        height: 200px;
+        margin-left: 75px;
+        margin-top: 75px;
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+
+
+/* RIGHT AREA */
+
+    #header
+    {
+        height: 100px;
+    }
+
+    #right-area
+    {
+        float: right;
+        width: 730px;
+        background: #ffffff70;
+    }
+
+    /* title of CV */    
+    h1
+    {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+        font-family: Verdana;
+        position: center;
+        text-transform: uppercase;
+        letter-spacing: 0.4em;
+        background: #ffffff77;
+    }
+
+    h2
+    {
+        font-family: Verdana;
+    }
+
+    /* horizontal line */
+    .horizontal-line
+    {
+        display: flex;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    }
+
+
+    /* professional skills */
+    #skill_1
+    {
+        font-family: Verdana;
+        float: left;
+        display: flex;
+    }
+
+    .text
+    {
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .blackCircle
+    {
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 15px;
+        height: 15px;
+        border-radius: 7.5px;
+        margin-top: 4px;
+        margin-right: 3px;
+    }
+
+    .whiteCircle
+    {
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 15px;
+        height: 15px;
+        border-radius: 7.5px;
+        margin-top: 4px;
+        margin-right: 3px;
+    }
