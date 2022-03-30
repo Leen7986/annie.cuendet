@@ -1,5 +1,6 @@
 body
 {
+    font-family: Verdana;
     background: radial-gradient(#ffffff,#353535);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     /* pour centrer tout le site */
@@ -34,7 +35,7 @@ body
     }
 
     /* portrait photograph */
-    .ronde
+    .roundPicture
     {
         border-radius: 50%;
         height: 200px;
@@ -43,9 +44,8 @@ body
         box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     }
 
-    #contact
+    .whiteMenu
     {
-        font-family: Verdana;
         color: #cccccc;
         margin-left: 40px;
         margin-top: 50px;
@@ -53,12 +53,16 @@ body
 
     h3
     {
-        margin-top: 20px;
+        font-size: 12pt;
+        margin-top: 16px;
+        margin-bottom: -8px;
     }
 
-    #contact p
+    .info
     {
-
+        font-size: 10pt;
+        margin-bottom: 20px;
+        line-height: 1.5;
     }
 
 /* RIGHT AREA */
@@ -78,20 +82,21 @@ body
     /* title of CV */    
     h1
     {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 550px;
-        font-family: Verdana;
+        font-size: 40pt;
         position: center;
-        text-transform: uppercase;
-        letter-spacing: 0.4em;
+        font-variant-caps: small-caps;
+        letter-spacing: 5px;
         background: #ffffff77;
+        text-align: center;
+        margin-left: -70px;
+        width: 800px;
     }
 
     h2
     {
-        font-family: Verdana;
+        font-size: 16pt;
+        font-weight: bold;
+        letter-spacing: 4px;
     }
 
     /* horizontal line */
@@ -99,24 +104,32 @@ body
     {
         display: flex;
         border-bottom: 3px solid rgba(0, 0, 0, 0.7);
-        margin-left: 0;
         width: 100px;
         box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
     }
 
 
     /* professional skills */
-    #skill_1
+    .blackMenu
     {
-        font-family: Verdana;
-        float: left;
-        display: flex;
+        color: #000000;
+        margin-left: 40px;
+        margin-top: 50px;
     }
 
-    .text
+    .proSkills
     {
-        width: 100px;
+        float: left;
+        display: flex;
         margin-left: 20px;
+        margin-bottom: -25px;
+    }
+    .skill
+    {
+        width: 120px;
+        margin-left: 20px;
+        font-size: 12pt;
+        font-weight: bold;
     }
 
     .blackCircle
@@ -125,7 +138,7 @@ body
         width: 15px;
         height: 15px;
         border-radius: 7.5px;
-        margin-top: 4px;
+        margin-top: 20px;
         margin-right: 3px;
     }
 
@@ -135,6 +148,6 @@ body
         width: 15px;
         height: 15px;
         border-radius: 7.5px;
-        margin-top: 4px;
+        margin-top: 20px;
         margin-right: 3px;
     }
