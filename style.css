@@ -24,7 +24,6 @@ body
 }
 
 /* LEFT AREA */
-
     #left-area
     {
         float: left;
@@ -65,12 +64,6 @@ body
     }
 
 /* RIGHT AREA */
-
-    #header
-    {
-        height: 100px;
-    }
-
     #right-area
     {
         float: right;
@@ -78,6 +71,11 @@ body
         background: #ffffff70;
     }
 
+    #header
+    {
+        height: 100px;
+    }
+    
     /* title of CV */    
     h1
     {
@@ -107,6 +105,54 @@ body
         box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
     }
 
+    /* experience */
+
+    #experienceArea
+    {
+        width: 730px;
+    }
+
+    .leftExperienceArea
+    {
+        float: left;
+        width: 250px;
+    }
+
+    .rightExperienceArea
+    {
+        float: right;
+        width: 480px;
+    }
+
+    .experience
+    {
+        margin-left: 40px;
+        
+    }
+
+    .date
+    {
+        font-size: 12pt;
+        font-weight: bold;
+        width: 200px;
+        float: left;
+        display: flex;
+    }
+
+    .employer
+    {
+        font-size: 10pt;
+        float: left;
+        display: flex;
+        margin-left: -200px;
+    }
+
+    .work
+    {
+        font-size: 10pt;
+        width: 200px;
+        margin-left: 250px;
+    }
 
     /* professional skills */
     .blackMenu
