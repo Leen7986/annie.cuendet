@@ -96,7 +96,7 @@
 
 .white_circle
 {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255);
     width: 15px;
     height: 15px;
     border-radius: 7.5px;
