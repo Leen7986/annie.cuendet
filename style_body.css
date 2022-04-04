@@ -1,0 +1,67 @@
+/* ---------- BODY */
+
+body{
+    font-family: Verdana;
+    background: radial-gradient(#ffffff,#353535);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    /* pour centrer tout le site */
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1500px;
+    width: 1080px;
+}
+
+/* ---------- all div elements in the main area = left-area and right-area*/
+
+#main_area > div
+{
+    height: 1500px;
+}
+
+/* ---------- main area in the page */
+
+#main_area
+{
+    width: 1080px;
+}
+
+.title_h2
+{
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.horizontal-line
+{
+    display: flex;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+    width: 100px;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.subtitle_h3
+{
+    font-size: 13pt;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.body_text_1
+{
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: -10px;
+    letter-spacing: 0.5px;
+}
+
+.body_text_2
+{
+    font-size: 11pt;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+}
