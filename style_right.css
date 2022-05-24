@@ -1,106 +1,116 @@
-
-/* RIGHT AREA */
-
-#right_area
-{
-    float: right;
-    width: 730px;
-    background: #ffffff70;
-}
-
-
-
-.black_menu
-{
-    color: #000000;
-    margin: 0;
-    margin-left: 40px;
-    margin-top: 30px;
-}
-
 /* ---------- EXPERIENCE */
 
-#experience_area
-{
-    height: 710px;
+#experience_area {
+    height: 650px;
 }
 
-.left_exp_area
-{
+.left_exp_area {
     float: left;
     width: 270px;
-    height: 70px;
+    height: 60px;
 }
 
-.right_exp_area
-{
+.right_exp_area {
     float: left;
     width: 380px;
-    height: 70px;
+    height: 60px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 /* ---------- PRO SKILLS */
 
-#pro_skills_area
-{
-    height: 550px;
-    /*background-color: #dd27272c;*/
+#pro_skills_area {
+    height: 400px;
+    /* background-color: #dd27272c; */
 }
 
-.left_pro_skills_area
-{
+.left_pro_skills_area {
     float: left;
     display: flex;
     width: 325px;
-    height: 40px;
+    height: 35px;
     /*background-color: #2c32cf65;*/
 }
 
-.right_pro_skills_area
-{
+.right_pro_skills_area {
     float: left;
     display: flex;
     margin-left: 20px;
     width: 325px;
-    height: 40px;
+    height: 35px;
     /*background-color: #e2f93699;*/
 }
 
-.title_pro_skills
-{
+.title_pro_skills_area {
     float: left;
     width: 150px;
     height: 25px;
 }
 
-.note_pro_skills
-{
+.level_pro_skills_area {
     float: right;
     display: flex;
     height: 25px;
-    margin-left: 25px;
+    margin-left: 0;
 }
 
-.black_circle
-{
+.black_circle {
     background-color: rgba(0, 0, 0, 0.7);
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 7.5px;
     margin: 0;
-    margin-top: 5px;
-    margin-right: 3px;
+    margin-top: 6px;
+    margin-right: 4px;
 }
 
-.white_circle
-{
+.white_circle {
     background-color: rgba(255, 255, 255);
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 7.5px;
     margin: 0;
-    margin-top: 5px;
-    margin-right: 3px;
+    margin-top: 6px;
+    margin-right: 4px;
+}
+
+/* ---------- PERSONNAL SKILLS */
+
+#pers_skills_area {
+    height: 200px;
+    /* background-color: #dd27272c; */
+}
+
+.left_pers_skills_area {
+    float: left;
+    display: flex;
+    width: 325px;
+    height: 40px;
+    /* background-color: #2c32cf65; */
+}
+
+.note_pers_skills {
+    float: left;
+    display: flex;
+    height: 25px;
+    margin-left: 0;
+}
+
+.circle_pers_skills {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 6px;
+    height: 6px;
+    border-radius: 7.5px;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.title_pers_skills_area {
+    float: left;
+    width: 325px;
+    height: 25px;
 }
