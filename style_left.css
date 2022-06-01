@@ -20,117 +20,39 @@
 
 #personality_area {
     height: 150px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
-
 
 .note_personality_area {
     float: left;
     display: flex;
-    width: 325px;
+    width: 300px;
     height: 30px;
-}
-
-.note_personality {
-    float: left;
-    display: flex;
-    margin-left: 0;
-}
-
-.circle_personality {
-
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 5px;
-    height: 5px;
-    border-radius: 7.5px;
-    margin: 0;
-    margin-top: 8px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .text_personality_area {
     float: left;
-    width: 325px;
-}
-
-.text_personality {
-    font-size: 12pt;
-    margin: 0;
+    width: 300px;
 }
 
 /* ---------- CENTER OF INTEREST */
 
 #interest_area {
-    height: 150px;
-    margin-top: 30px;
+    height: 220px;
+    margin-top: 40px;
 }
 
 .interest_zone {
     height: 50px;
 }
 
-.interest_1 {
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: gray;
-    margin-left: 50px;
-}
-
-.interest_2 {
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    margin-left: 20px;
-    margin-top: -25px;
-}
-
-.interest_3 {
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    letter-spacing: 0px;
-    text-align: center;
-    margin-top: -30px;
-}
-
-.interest_4 {
-    font-size: 15px;
-
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    margin-top: -20px;
-}
-
-.interest_5 {
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin-top: -40px;
-    margin-left: 200px;
-}
-
-.interest_6 {
-    font-size: 11px;
- 
-    letter-spacing: 1px;
-    margin-top: -30px;
-    margin-left: 100px;
-    color: gray;
-}
-
-.interest_7 {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: -130px;
-    margin-left: 150px;
-    font-style: italic;
-}
-
-
 /* ---------- VOLUNTEERIING */
 
 #volunteering_area {
     height: 150px;
-    margin-top: 60px;
+    margin-top: 80px;
+}
+
+.left_volunteering_area {
+    padding-left: 20px;
 }

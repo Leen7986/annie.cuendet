@@ -95,6 +95,13 @@ body {
     margin-bottom: 2px;
 }
 
+.title_languages {
+    font-size: 13pt;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
 .title_cv {
     font-size: 35pt;
     letter-spacing: 1.5px;
@@ -114,7 +121,7 @@ body {
 
 /* -------- subtitle */
 .subtitle_cv {
-    font-size: 25px;
+    font-size: 18.75pt;
     font-weight: bold;
     font-variant-caps: small-caps;
     text-align: center;
@@ -130,12 +137,16 @@ body {
 
 /* -------- text */
 .text_contact {
-    font-size: 10.5pt;
-    line-height: 1.4;
+    font-size: 12pt;
+    line-height: 1.45;
     margin: 0;
     margin-bottom: 15px;
     margin-left: 10px;
-    text-decoration:none;
+}
+
+.text_personality {
+    font-size: 12pt;
+    margin: 0;
 }
 
 .text_volunteering {
@@ -143,11 +154,67 @@ body {
     line-height: 1.4;
     margin: 0;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
-.text_experiences, .text_education {
+.text_description {
+    font-size: 11pt;
+    font-style: italic;
+    text-align: center;
+}
+
+.text_experiences {
+    font-size: 10.5pt;
+    margin: 0;
+}
+
+.text_education {
     font-size: 10.5pt;
     line-height: 1.4;
     margin: 0;
     margin-top: 23px;
+}
+
+.text_languages {
+    font-size: 13pt;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.text_reference {
+    font-size: 12pt;
+    line-height: 1.4;
+    margin: 0;
+    margin-top: 23px;
+    padding-left: 20px;
+}
+
+/* -------- PUCES */
+
+.note {
+    float: left;
+    display: flex;
+    margin-left: 0;
+}
+
+.circle {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 5px;
+    height: 5px;
+    border-radius: 7.5px;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.circle_black {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 6px;
+    height: 6px;
+    border-radius: 7.5px;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
