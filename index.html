@@ -26,7 +26,7 @@
 						<p class="title_name">Annie Cuendet</p>
 						<p class="text_contact" disabled>Route Sur-le-Ru 12a
 							<br>1782 Belfaux
-							<br><span>+41 79 918 04 70</span>
+							<br><span class="phone-number">+41 79 918 04 70</span>
 							<br>annie.cuendet@icloud.com</p>
 						<p class="text_contact">07.09.1986
 							<br>Suisse
@@ -297,5 +297,13 @@
 
 			</div>
 		</div>
+		<script>
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    var phoneNumber = document.getElementsByClassName("phone-number");
+    for (var i = 0; i < phoneNumber.length; i++) {
+        phoneNumber[i].setAttribute("href", "tel:" + phoneNumber[i].innerHTML);
+    }
+}
+		</script>
 	</body>
 </html>
